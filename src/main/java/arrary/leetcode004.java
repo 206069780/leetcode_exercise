@@ -1,7 +1,11 @@
+package arrary;
+
+import org.junit.Test;
+
 /**
  * @packageName: PACKAGE_NAME
  * @program: leetcode_exercise
- * @className: leetcode004
+ * @className: arrary.leetcode004
  * @author: Mr.FU
  * @Email: fudaopin@gmail.com
  * @createDate: 2021-08-06  20:33
@@ -72,6 +76,13 @@ public class leetcode004 {
             }
         }
         throw new RuntimeException("Not Found");
+    }
+
+    @Test
+    public  void main() {
+        int[] num1 = {1, 2, 3, 4};
+        int[] nums2 = {3, 4, 5, 6, 9};
+        System.out.println(findMedianSortedArrays(nums2,num1));
     }
 
 }
