@@ -7,4 +7,10 @@
 # Editor-based HTTP Client requests
 /httpRequests/
 /src/test
-/leetcode_exercise.iml
+*.iml
+
+
+.project
+.classpath
+/.settings
+*.class
