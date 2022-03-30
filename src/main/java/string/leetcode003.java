@@ -3,7 +3,9 @@ package string;
 import org.junit.Test;
 
 import java.util.HashMap;
+import java.util.HashSet;
 import java.util.Map;
+import java.util.Set;
 
 import static java.lang.Math.max;
 
@@ -18,32 +20,34 @@ import static java.lang.Math.max;
  **/
 public class leetcode003 {
     public int lengthOfLongestSubstring(String s) {
-        if (s == null || s.length() == 0 || s.trim().length() == 0) {
+        if (s == null || s.length() == 0) {
             return 0;
+        }
+        if (s.equals("")||s.equals(" ") ) {
+            return 1;
         }
         return getMaxLen(s);
     }
 
-    public int getMaxLen(String s) {
-
-        int maxLen = 0;
-        int p = 0, q = 0;
-        Map<Character, Integer> res = new HashMap<>();
-        while (q < s.length()) {
-            if (res.containsKey(s.charAt(q))) {
-                p = res.get(s.charAt(q)) + 1;
+    public int getMaxLen(String str) {
+        int ans = Integer.MIN_VALUE;
+        int start = 0;
+        Set<Character> characterSet = new HashSet<>();
+        for (int i=0;i<str.length();i++) {
+            while (characterSet.contains(str.charAt(i))) {
+                characterSet.remove(str.charAt(start));
+                start++;
             }
-            res.put(s.charAt(q), q);
-            maxLen = max(maxLen, q - p + 1);
-            ++q;
+            characterSet.add(str.charAt(i));
+            ans = Math.max(i - start+1, ans);
         }
+        return ans;
 
-        return maxLen;
     }
 
     @Test
     public void test() {
-        int i = lengthOfLongestSubstring("null");
+        int i = lengthOfLongestSubstring("pwwkew");
         System.out.println(i);
     }
 }
