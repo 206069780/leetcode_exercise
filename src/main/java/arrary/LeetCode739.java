@@ -2,20 +2,22 @@ package arrary;
 
 import org.junit.Test;
 
-import java.lang.reflect.Array;
-import java.util.Arrays;
-import java.util.Deque;
-import java.util.LinkedList;
 import java.util.Stack;
 
 /**
  * @author FuDaoPin
  * @version 1.0.0
  * @ClassName LeetCode.java
- * @Description 每日温度
+ * @Description 每日温度 -- 单调栈
  * @createTime 2022年03月30日 20:41:00
  */
 public class LeetCode739 {
+    /**
+     * 单调栈
+     *
+     * @param temperatures
+     * @return
+     */
     public int[] dailyTemperatures(int[] temperatures) {
 
         int[] ans = new int[temperatures.length];
