@@ -21,11 +21,16 @@ public class TreeNode {
         TreeNode node4 = new TreeNode(15);
         TreeNode node5 = new TreeNode(7);
 
-//        node1.left = node2;
+        TreeNode node6 = new TreeNode(18);
+        TreeNode node7 = new TreeNode(8);
+
+        node1.left = node2;
+        node2.left = node6;
+        node6.right = node7;
         node1.right = node3;
         node3.left = node4;
         node3.right = node5;
-        node5.left = node2;
+//        node5.left = node2;
         return node1;
     }
 }
