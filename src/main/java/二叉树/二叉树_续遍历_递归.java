@@ -12,7 +12,7 @@ import java.util.List;
  * @Description 二叉树的后序遍历
  * @createTime 2022年04月01日 22:26:00
  */
-public class 二叉树后_续遍历 {
+public class 二叉树_续遍历_递归 {
     public List<Integer> postorderTraversal(TreeNode root) {
         List<Integer> ans = new ArrayList<>();
         if (root == null) {
