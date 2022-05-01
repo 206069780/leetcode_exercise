@@ -10,7 +10,7 @@ import java.util.stream.Collectors;
  * @author FuDaoPin
  * @version 1.0.0
  * @ClassName LCP28.java
- * @Description TODO
+ * @Description
  * @createTime 2022年04月18日 20:08:00
  */
 public class LCP28 {

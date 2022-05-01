@@ -24,6 +24,12 @@ public class LeetCode374 {
 //        return left;
 //    }
 
+    @Test
+    public void test1() {
+        for (int i = 0; i < 100; i++) {
+            System.out.println(i);
+        }
+    }
 
     @Test
     public void main() {
