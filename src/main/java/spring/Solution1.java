@@ -6,7 +6,7 @@ import org.junit.Test;
  * @author FuDaoPin
  * @version 1.0.0
  * @ClassName Solution1.java
- * @Description TODO
+ * @Description leetCode 春季赛
  * @createTime 2022年04月23日 15:00:00
  */
 public class Solution1 {

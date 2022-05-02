@@ -2,9 +2,7 @@ package string;
 
 import org.junit.Test;
 
-import java.util.HashMap;
 import java.util.HashSet;
-import java.util.Map;
 import java.util.Set;
 
 import static java.lang.Math.max;
@@ -16,7 +14,7 @@ import static java.lang.Math.max;
  * @author: Mr.FU
  * @Email: fudaopin@gmail.com
  * @createDate: 2021-08-06  21:25
- * @description: TODO
+ * @description:
  **/
 public class leetcode003 {
     public int lengthOfLongestSubstring(String s) {

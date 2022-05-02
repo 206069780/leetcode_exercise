@@ -2,17 +2,15 @@ package arrary;
 
 import org.junit.Test;
 
-import java.sql.Array;
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.LinkedList;
 import java.util.List;
 
 /**
  * @author FuDaoPin
  * @version 1.0.0
  * @ClassName LeetCode15.java
- * @Description TODO
+ * @Description
  * @createTime 2022年04月24日 21:36:00
  */
 public class LeetCode15 {

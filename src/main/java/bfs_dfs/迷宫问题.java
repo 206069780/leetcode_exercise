@@ -6,7 +6,7 @@ import org.junit.Test;
  * @author FuDaoPin
  * @version 1.0.0
  * @ClassName 迷宫问题.java
- * @Description TODO
+ * @Description 搜索算法学习
  * @createTime 2022年04月23日 22:04:00
  */
 public class 迷宫问题 {

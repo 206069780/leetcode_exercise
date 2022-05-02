@@ -6,7 +6,7 @@ import org.junit.Test;
  * @author FuDaoPin
  * @version 1.0.0
  * @ClassName 相同的树.java
- * @Description TODO
+ * @Description
  * @createTime 2022年04月22日 23:08:00
  */
 public class 相同的树 {

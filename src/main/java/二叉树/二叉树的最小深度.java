@@ -6,7 +6,7 @@ import org.junit.Test;
  * @author FuDaoPin
  * @version 1.0.0
  * @ClassName 二叉树的最小深度.java
- * @Description TODO
+ * @Description
  * @createTime 2022年04月02日 20:05:00
  */
 public class 二叉树的最小深度 {

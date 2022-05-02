@@ -6,7 +6,6 @@ import org.junit.Test;
  * @author FuDaoPin
  * @version 1.0.0
  * @ClassName 二叉树的最大深度.java
- * @Description TODO
  * @createTime 2022年04月02日 19:53:00
  */
 public class 二叉树的最大深度 {

@@ -11,7 +11,7 @@ import java.util.List;
  * @author FuDaoPin
  * @version 1.0.0
  * @ClassName 路径总和leetcode112.java
- * @Description TODO
+ * @Description
  * @createTime 2022年04月04日 12:27:00
  */
 public class 路径总和leetcode112 {

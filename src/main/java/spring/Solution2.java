@@ -6,7 +6,7 @@ import org.junit.Test;
  * @author FuDaoPin
  * @version 1.0.0
  * @ClassName Solution2.java
- * @Description TODO
+ * @Description 春季赛
  * @createTime 2022年04月23日 16:08:00
  */
 public class Solution2 {
